@@ -1,4 +1,3 @@
-````md
 # NestJS OpenAI Service
 
 A backend API built with **NestJS** to interact with OpenAI's GPT models.  
@@ -24,42 +23,43 @@ Provides a simple endpoint for chat completions and is ready for integration wit
 ### Setup
 
 1. Clone the repository
+
    ```bash
    git clone <your-repo-url>
    cd nestjs-openai
+
    ```
-````
 
-2.  Install dependencies
+2. Install dependencies
 
-    ```bash
-    pnpm install
+   ```bash
+   pnpm install
 
-    ```
+   ```
 
-3.  Create a `.env` file (see `.env.example`)
+3. Create a `.env` file (see `.env.example`)
 
-    ```env
-    OPENAI_API_KEY=YOUR_OPENAI_API_KEY
+   ```env
+   OPENAI_API_KEY=YOUR_OPENAI_API_KEY
 
-    ```
+   ```
 
-4.  Run the development server
+4. Run the development server
 
-    ```bash
-    pnpm start:dev
+   ```bash
+   pnpm start:dev
 
-    ```
+   ```
 
-5.  Test the endpoint using Postman or any HTTP client:
-    - **POST** `http://localhost:3000/openai/chatCompletion`
-    - Body example:
+5. Test the endpoint using Postman or any HTTP client:
+   - **POST** `http://localhost:3000/openai/chatCompletion`
+   - Body example:
 
-      ```json
-      {
-        "messages": [{ "role": "user", "content": "Hello, AI!" }]
-      }
-      ```
+     ```json
+     {
+       "messages": [{ "role": "user", "content": "Hello, AI!" }]
+     }
+     ```
 
 ---
 
