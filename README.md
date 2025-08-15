@@ -63,10 +63,11 @@ Provides a simple endpoint for chat completions and is ready for integration wit
 
 ---
 
-## Project Status
+## Frontend
 
-- ✅ Backend: OpenAI integration complete
-- 🛠 Frontend (Next.js UI) — in progress
+The frontend is built with **Next.js** and **DaisyUI**.  
+It provides a chat UI for interacting with the OpenAI API.  
+See [frontend repo](https://github.com/HAWKZ4/nextjs-openai) for code and setup instructions.
 
 ---
 
